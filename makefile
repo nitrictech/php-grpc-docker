@@ -1,0 +1,3 @@
+build:
+	@echo Building Docker image, this might take a while...
+	@docker build . -t  nitricimages/php8.0-grpc-ext
